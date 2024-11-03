@@ -1,4 +1,4 @@
-pubic class portatiles {
+public class portatiles {
   private String CPU
   private String GPU
   private int RAM
