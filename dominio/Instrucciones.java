@@ -5,18 +5,22 @@ import java.util.List;
 public class TiendaElectronica implements Serializable {
     private List<Productos> Caracteristicas = new ArrayList<>();
 
-    public void addcpu(Cpu cpu) {
-        cpu.add(cpu);
+    public void addCPU(Cpu cpu) {
+        addCPU(cpu);
         return;
     }
 
-    public void addGpu(Gpu gpu) {
+    public void addGPU(Gpu gpu) {
         addGPU(gpu);
         return;
     }
 
     public void addRAM(RAM ram) {
         addRAM(ram);
+        return;
+    }
+    public void addMarca(Marca marca){
+        addMarca(marca);
         return;
     }
 
